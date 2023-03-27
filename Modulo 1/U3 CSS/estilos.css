@@ -1,0 +1,53 @@
+h1{
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: -2px 4px 2px rgba(0,0,0,0.6);
+    background: #ff0000;
+background: radial-gradient(circle farthest-corner at center center, #ff0000 0%, #000000 100%);
+background: -webkit-radial-gradient(circle farthest-corner at center center, #ff0000 0%, #000000 100%);
+background: -moz-radial-gradient(circle farthest-corner at center center, #ff0000 0%, #000000 100%);
+}
+h4{
+    color:black;
+    font-size: large;
+}
+.Formulario{
+    color: black;
+    text-transform: uppercase;
+    background-color: gold;
+    font-weight: bold;
+}
+.Contenedor{
+	display: flex;
+    column-count: 3;
+}
+.Fotos{
+    display: flex;
+    column-count: 3;
+    column-gap: 20px;
+}
+.Futbol{
+    display: flex;
+    column-count: 3;
+    column-gap: 10px;
+}
+.ultimaDiapo{
+    background-color: #000000;
+    font-weight: bold; 
+}
+#botonRiver{
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+#penalMontiel{
+    background-color: RGB(0,0,255);
+    border-color: RGB(0,0,255);
+    align-items: flex-end;
+}
+#series{
+    columns: 2;
+}
+#customRange1{
+    box-shadow: #000000;
+}
