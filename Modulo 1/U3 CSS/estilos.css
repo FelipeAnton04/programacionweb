@@ -10,6 +10,7 @@ background: -moz-radial-gradient(circle farthest-corner at center center, #ff000
 }
 h4{
     color:black;
+    background-color: aqua;
     font-size: large;
 }
 .Formulario{
@@ -21,6 +22,16 @@ h4{
 .Contenedor{
 	display: flex;
     column-count: 3;
+    column-gap: 20px;
+-webkit-column-gap: 20px;
+-moz-column-gap: 20px;
+column-rule: 10px inset #000000;
+-webkit-column-rule: 10px inset #000000;
+-moz-column-rule: 10px inset #000000;
+}
+.Item{
+    border-right: 2px solid #000000;
+ border-left: 2px solid #000000; 
 }
 .Fotos{
     display: flex;
@@ -31,23 +42,4 @@ h4{
     display: flex;
     column-count: 3;
     column-gap: 10px;
-}
-.ultimaDiapo{
-    background-color: #000000;
-    font-weight: bold; 
-}
-#botonRiver{
-    background-color: #ff0000;
-    border-color: #ff0000;
-}
-#penalMontiel{
-    background-color: RGB(0,0,255);
-    border-color: RGB(0,0,255);
-    align-items: flex-end;
-}
-#series{
-    columns: 2;
-}
-#customRange1{
-    box-shadow: #000000;
 }
