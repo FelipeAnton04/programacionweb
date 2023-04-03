@@ -17,7 +17,7 @@ h5 {
     font-size: 21px;
 }
 
-.container-fluid {
+#Productos {
     background: url(../Img/cafediseño.jpg) no-repeat;
     background-size: cover;
     color: white;
@@ -29,7 +29,7 @@ h5 {
     margin-bottom: 20px;
 }
 
-.card:hover {
+#pepe:hover {
     background-color: black;
     color: white;
     transition: 0.5s;
@@ -41,4 +41,29 @@ h5 {
     margin-left: 10px;
     margin-right: 10px;
     size: 50px;
+}
+#exampleModal{
+    color: black;
+}
+#fotoCara{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#cara{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+#historia{
+    text-align:start;
+    margin-top: 50px;
+}
+#nosotros{
+    background-color: #efefef;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+#final{
+    margin-top: 50px;
 }
