@@ -20,8 +20,51 @@ h5 {
 #Productos {
     background: url(../Img/cafediseño.jpg) no-repeat;
     background-size: cover;
+    height: 50vh;
+    min-height: 500px;
     color: white;
     align-items: center;
+    margin-top: 80px;
+    padding-bottom: 200px;
+}
+
+#fotos {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#carusel {
+    background-color: #efefef;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding-right: 40px;
+}
+
+.testimonios {
+    background-color: #dadada;
+}
+
+.testimonio {
+    text-align: center;
+    padding: 30px 15px;
+}
+#video{
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.card-body {
+    text-align: center;
+}
+
+#pepe {
+    margin-top: 50px;
+    margin-left: 31px;
+    transition: .3 ease;
+    size: 20px;
+    height: 300px;
+    width: 370px;
 }
 
 .btn {
@@ -33,37 +76,39 @@ h5 {
     background-color: black;
     color: white;
     transition: 0.5s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
 }
 
-.fotos {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    size: 50px;
-}
-#exampleModal{
+
+#exampleModal {
     color: black;
 }
-#fotoCara{
+
+#fotoCara {
     margin-top: 30px;
     margin-left: 50px;
 }
-#cara{
+
+#cara {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
 }
-#historia{
-    text-align:start;
+
+#historia {
+    text-align: start;
     margin-top: 50px;
 }
-#nosotros{
+
+#nosotros {
     background-color: #efefef;
     padding-bottom: 50px;
     padding-top: 25px;
 }
-#final{
+
+#final {
     margin-top: 50px;
 }
